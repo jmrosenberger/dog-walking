@@ -1,11 +1,12 @@
 import { getPets, getWalkers  } from "./database.js"
 
-const pets = getPets()
 
+const pets = getPets()
 const walkers = getWalkers()
 
 
 
+//Event handler for a window alert showing who is currently walking the pet that is clicked on
 
 document.addEventListener(
     "click",
@@ -29,7 +30,7 @@ document.addEventListener(
                 }
             }
         }
-
+     
     }
 )
 
