@@ -1,10 +1,12 @@
 import { getWalkers, getCities } from "./database.js"
 
-const walkers = getWalkers()
 
+const walkers = getWalkers()
 const cities = getCities()
 
 
+
+//Even handler for window alert showing which city is serviced by the walker that is clicked on
 
 document.addEventListener(
     "click",
@@ -30,7 +32,6 @@ document.addEventListener(
             }
     }
 )
-
 
 
 
